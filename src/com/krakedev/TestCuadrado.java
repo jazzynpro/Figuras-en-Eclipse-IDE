@@ -10,6 +10,13 @@ public class TestCuadrado {
 		double resultadoArea;
 		resultadoArea = r1.calcularArea();
 		System.out.println("Resultado: "+ resultadoArea);
+		
+		Cuadrado r2 = new Cuadrado();
+		r2.lado = 3;
+		
+		double resultadoPerimetro;
+		resultadoPerimetro = r2.calcularPerimetro();
+		System.out.println("Resultado: "+ resultadoPerimetro);
 	}
 
 }
